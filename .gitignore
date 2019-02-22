@@ -1,4 +1,5 @@
 # Ignore Play! working directory #
+.g8
 
 # Database
 /db
@@ -10,7 +11,10 @@
 /.project
 /.settings
 .eclipse
+
+# Caches
 .cache
+.gradle
 
 # Dependencies
 /lib/
