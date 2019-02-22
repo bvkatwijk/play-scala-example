@@ -1,16 +1,36 @@
 # Ignore Play! working directory #
-bin/
+
+# Database
 /db
+
+# IDE files
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
 .eclipse
+.cache
+
+# Dependencies
 /lib/
-/logs/
 /modules
+
+# Generated files
 /project/project
 /project/target
 /target
 tmp/
 test-result
-server.pid
-*.eml
+bin/
 /dist/
-.cache
+target
+*.eml
+
+# Non-functional files
+logs
+/logs/
+
+# Process
+/RUNNING_PID
+server.pid
